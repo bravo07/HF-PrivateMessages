@@ -6,7 +6,7 @@
 
 ----------
 
-##Features
+## Features
 
 1. Lists all Private Messages
 2. View Private Message
@@ -32,6 +32,6 @@
 
 ## Change Log:
 
-####Version: v1.0
+###Version: v1.0
 - Released
 
