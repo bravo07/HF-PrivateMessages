@@ -1,7 +1,7 @@
 # HF-PrivateMessages
 
 
-### Latest Version: v1.0
+### Latest Version: v1.0.1
 
 
 ## Features
