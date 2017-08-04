@@ -26,8 +26,6 @@
 ![Settings](https://image.prntscr.com/image/rTOzzIe7RS_O0Gk5iuUCrQ.png)
 
 
-----------
-
 ## Change Log:
 
 ### Version: v1.0
