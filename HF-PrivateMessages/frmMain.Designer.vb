@@ -152,7 +152,7 @@ Partial Class frmMain
         '
         'PMCheck
         '
-        Me.PMCheck.Interval = 20000
+        Me.PMCheck.Interval = 300000
         '
         'lblTotalMessages
         '

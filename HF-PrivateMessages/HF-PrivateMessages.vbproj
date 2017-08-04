@@ -46,8 +46,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>if_icon-1-mail-envelope_314795.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -144,6 +143,9 @@
   <ItemGroup>
     <None Include="Resources\unreadIcon.ico" />
     <None Include="Resources\readIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="if_icon-1-mail-envelope_314795.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

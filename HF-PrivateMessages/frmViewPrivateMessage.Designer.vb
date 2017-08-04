@@ -132,10 +132,12 @@ Partial Class frmViewPrivateMessage
         Me.Controls.Add(Me.lblSender)
         Me.Controls.Add(Me.lblMessage)
         Me.Controls.Add(Me.lblSubject)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmViewPrivateMessage"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "HF Private Message Notifications - View Message"
         Me.ResumeLayout(False)

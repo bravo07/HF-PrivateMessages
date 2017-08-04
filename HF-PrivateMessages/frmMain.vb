@@ -22,14 +22,19 @@ Public Class frmMain
         frmSettings.ShowDialog()
     End Sub
 
+    Public Sub updateTimerInterval(ByVal interval As Integer)
+        PMCheck.Stop()
+        PMCheck.Interval = interval
+        PMCheck.Start()
+
+    End Sub
+
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If api.setAPIKey(My.Settings.apiKey) = False Then
             frmSettings.ShowDialog()
         End If
-
+        updateTimerInterval(My.Settings.updateInterval)
         cbFolder.SelectedIndex = folderID - 1
-
-        PMCheck.Start()
 
     End Sub
 
@@ -95,16 +100,16 @@ Public Class frmMain
         Catch ex As Exception
 
         End Try
-        
+
 
     End Sub
 
     Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
         updateMessages()
-
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        System.Media.SystemSounds.Question.Play()
 
         pageNumber = pageNumber + 1
 

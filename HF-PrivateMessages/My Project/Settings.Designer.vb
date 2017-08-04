@@ -65,6 +65,17 @@ Namespace My
                 Me("apiKey") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()>  _
+        Public Property updateInterval() As Integer
+            Get
+                Return CType(Me("updateInterval"),Integer)
+            End Get
+            Set
+                Me("updateInterval") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
