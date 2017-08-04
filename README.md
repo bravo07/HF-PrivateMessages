@@ -1,1 +1,1 @@
-# HF-PrivateMessages
+# HF-PrivateMessags
