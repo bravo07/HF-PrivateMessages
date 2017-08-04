@@ -10,7 +10,7 @@
 2. View Private Message
 3. Notify's you when you have any unread Private Messages
 4. Ability to view all your folders; (Inbox, Sent Items, Drafts, Trash)
-5. Refreshes messages every 20 seconds 
+5. Message refresh can be set by user. Have set default to 3 minutes.
 
 ## Screenshots ##
 
@@ -27,6 +27,10 @@
 
 
 ## Change Log:
+
+### Version: v1.0.1
+- Ability to set how often the applicaiton refreshes for new messages
+- Default refresh set to 3 minutes
 
 ### Version: v1.0
 - Released
