@@ -23,7 +23,7 @@
 
 ##### Settings: 
 
-![Settings](https://image.prntscr.com/image/rTOzzIe7RS_O0Gk5iuUCrQ.png)
+![Settings](https://image.prntscr.com/image/RZ2A13ccSSGQMmxv04kx2g.png)
 
 
 ## Change Log:
